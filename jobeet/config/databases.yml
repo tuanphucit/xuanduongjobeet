@@ -5,3 +5,10 @@ all:
       dsn: 'mysql:host=localhost;dbname=xuanduong_jobeet'
       username: root
       password: '1'
+test:
+  doctrine:
+    class: sfDoctrineDatabase
+    param:
+      dsn: 'mysql:host=localhost;dbname=xuanduong_jobeet_test'
+      username: root
+      password: '1'
