@@ -11,4 +11,4 @@ test:
     param:
       dsn: 'mysql:host=localhost;dbname=xuanduong_jobeet_test;unix_socket=/Applications/MAMP/tmp/mysql/mysql.sock'
       username: root
-      password: '1'
+      password: root
